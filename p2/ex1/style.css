@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Ruda&display=swap');
+
+header > h1 {
+  font-family: 'Imperial Script', cursive;
+  font-weight: 400;
+  font-size: 8rem;
+  text-align: center;
+}
+
+article.recipe {
+    width: 45rem;
+    margin: 0 auto;
+    background-color: rgb(247,237,226);
+}
+
+
+article.recipe > header > dl {
+    font-family: 'Ruda';
+    background-color:rgb(245,202,195);
+    border-top: 0.1rem dashed rgb(242,132,130);
+    border-bottom: 0.1rem dashed rgb(242,132,130);
+    border-left: 0.1rem dashed rgb(242,132,130);
+    border-right: 0.3rem solid rgb(242,132,130);
+    border-radius: 1rem;
+    border-;
+}
+
+h2 {
+    text-underline-position: below;
+    font-size: 2rem;
+    text-align: right;
+    padding: 1rem;
+}
+
+article.recipe > img  {
+    text-align: center;
+}
