@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Imperial+Script&family=Ruda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Imperial+Script&family=Ruda&display=swap');
+
+body {
+    background-color: #EDEFF0;
+}
+
+body > header {
+    background-color: #046DD5;
+    padding: 1em;
+}
+
+body > header h1 {
+    margin: 0;
+}
+
+body > header h2 {
+    margin: 0;
+}
+
+body > header a {
+    font-family: Crimson Pro, Poppins;
+    color: white;
+    
+}
+
+
+
+#menu input{
+    display: none;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    text-align: center;
+
+    border: 1em;
+    border-top: .2em solid #2A2F33;
+}
+
+#menu li:nth-child(1){
+
+}
+
+#menu li a {
+    color: #2A2F33;
+}
+
+#menu li:hover {
+    background-color: #2A2F33;
+}
+
+#menu li:hover a{
+    color: white;
+}
+
+#related a {
+    color: white;
+}
+
+#related {
+    padding: 1em;
+    font-family: Crimson Pro, Lupos;
+    background-color: #2A2F33;
+    color: white;
+}
