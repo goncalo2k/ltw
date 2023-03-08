@@ -1,0 +1,144 @@
+    @import url('https://fonts.googleapis.com/css?family=Lora:400,700|Poppins:400,700');
+
+    body {
+        font-family: Poppins, sans-serif;
+        background-color: #EDEFF0;
+    }
+
+    body > header {
+        background-color: #046DD5;
+        padding: 1em;
+    }
+
+    body > header h1 {
+        margin: 0;
+    }
+
+    body > header h2 {
+        margin: 0;
+    }
+
+    body > header a {
+        color: white;
+    }
+
+    body > header a, nav a, h1 a, h2 a {
+        text-decoration: none;
+    }
+
+    body  p {
+        font-family: Lora, serif;
+        font-weight: lighter;
+    }
+
+    body > footer {
+        background-color: #2A2F33;
+        padding: .5em;
+        margin-top: 1em;
+        color: white;
+        font-family: Poppins, sans-serif;
+    }
+
+    #menu {
+        color: white;
+    }
+
+    #menu input{
+        display: none;
+    }
+
+    #menu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #menu li {
+        text-align: center;
+        border: 1em;
+        padding: 1em;
+    }
+
+    #menu li:nth-child(1){
+        border-top: .2em solid #E1493E;
+    }
+
+    #menu li:nth-child(2){
+        border-top: .2em solid #8ABA56;
+    }
+
+    #menu li:nth-child(3){
+        border-top: .2em solid #5B4282;
+    }
+
+    #menu li:nth-child(4){
+        border-top: .2em solid #FF8932;
+    }
+
+    #menu li:nth-child(5){
+        border-top: .2em solid #FF8932;
+    }
+
+    #menu li:nth-child(6){
+        border-top: .2em solid #E84C8B;
+    }
+
+
+    #menu li a {
+        color: #2A2F33;
+    }
+
+    #menu li:hover {
+        background-color: #2A2F33;
+    }
+
+    #menu li:hover a{
+        color: white;
+    }
+
+    #related a {
+        color: white;
+    }
+
+    #related {
+        padding: 1em;
+        background-color: #2A2F33;
+        color: white;
+    }
+
+    #news {
+        margin: 1em 0;
+    }
+
+    #news h1 {
+        position: absolute;
+        text-shadow: .2em .4em .4em #2A2F33;
+        max-width: 18em;
+        padding: 1em;
+        
+    }
+
+    #news a {
+        color: white;
+    }
+
+    #news h1 a {
+        font-size: 2em;
+    }
+
+    #news img {
+        width: 100%;
+    }
+
+    #news > article p:first-of-type::first-letter{
+        font-size: 2em;
+    }
+
+    #news > article > footer {
+        font-size: small;
+        padding: 1em;
+        background-color: #FF8932;
+        color: white;
+        font-family: Poppins, sans-serif;
+        margin-bottom: 1em;
+    }
